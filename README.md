@@ -6,7 +6,7 @@
     git clone https://github.com/taraval/remote .remote
     cd ~
     echo "alias rcmd='bash ~/.remote/main.sh'" >> ~/.bashrc
-    . ~/.bashrc
+    export ~/.bashrc
     touch ~/.remote/config
     echo "Configure: vim ~/.remote/config"
 
