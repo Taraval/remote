@@ -5,7 +5,7 @@
     cd ~
     git clone https://github.com/taraval/remote
     cd ~
-    echo "alias rcmd='~/.remote/main.sh'" >> ~/.bashrc"
+    echo "alias rcmd='~/.remote/main.sh'" >> ~/.bashrc
     . ~/.bashrc
     touch ~/.remote/config
     echo "vim ~/.remote/config"
