@@ -3,7 +3,7 @@
 
     
     cd ~
-    git clone https://github.com/taraval/remote
+    git clone https://github.com/taraval/remote .remote
     cd ~
     echo "alias rcmd='~/.remote/main.sh'" >> ~/.bashrc
     . ~/.bashrc
