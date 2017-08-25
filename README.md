@@ -1,11 +1,12 @@
 ## Remote Installation
-### curl https://raw.github.com/taraval/remote/master/README.md | sh
+### curl https://raw.githubusercontent.com/Taraval/remote/master/README.md | sh
 
-    mkdir ~/.remote
-    cd ~/.remote
+    
+    cd ~
     git clone https://github.com/taraval/remote
     cd ~
     echo "alias rcmd='~/.remote/main.sh'" >> ~/.bashrc"
+    . ~/.bashrc
     touch ~/.remote/config
     echo "vim ~/.remote/config"
 
