@@ -5,10 +5,10 @@
     cd ~
     git clone https://github.com/taraval/remote .remote
     cd ~
-    echo "alias rcmd='~/.remote/main.sh'" >> ~/.bashrc
+    echo "alias rcmd='bash ~/.remote/main.sh'" >> ~/.bashrc
     . ~/.bashrc
     touch ~/.remote/config
-    echo "vim ~/.remote/config"
+    echo "Configure: vim ~/.remote/config"
 
 ## Remove me
 
