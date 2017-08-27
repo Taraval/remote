@@ -4,19 +4,16 @@
     cd ~
     git clone https://github.com/taraval/remote .remote
     cd ~
-    rcmd="alias rcmd='bash ~/.remote/main.sh'"
-    rcmd-ls="alias rcmd-ls='bash ~/.remote/list.sh'"
-    rcmd-list="alias rcmd-list='bash ~/.remote/list.sh'"
-    rcmd-show="alias rcmd-show='bash ~/.remote/show.sh'"
-    echo "$rcmd" >> ~/.bashrc
-    echo "$rcmd-ls" >> ~/.bashrc
-    echo "$rcmd-list" >> ~/.bashrc
-    echo "$rcmd-show" >> ~/.bashrc
 
-    $rcmd
-    $rcmd-ls
-    $rcmd-list
-    $rcmd-show
+    echo "alias rcmd='bash ~/.remote/main.sh'" >> ~/.bashrc
+    echo "alias rcmd-ls='bash ~/.remote/list.sh'" >> ~/.bashrc
+    echo "alias rcmd-list='bash ~/.remote/list.sh'" >> ~/.bashrc
+    echo "alias rcmd-show='bash ~/.remote/show.sh'" >> ~/.bashrc
+
+    alias rcmd='bash ~/.remote/main.sh'
+    alias rcmd-ls='bash ~/.remote/list.sh'
+    alias rcmd-list='bash ~/.remote/list.sh'
+    alias rcmd-show='bash ~/.remote/show.sh'
 
     touch ~/.remote/config
     echo "Configure: vim ~/.remote/config"
