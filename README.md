@@ -10,7 +10,7 @@
     echo "alias rcmd-show='bash ~/.remote/show.sh'" >> ~/.bashrc
     echo "alias rcmd-config='_rcmd-config() { echo $1 > ~/.remote/config } ; _rcmd-config '" >> ~/.bashrc
 
-    source ~/.bashrc
+    . ~/.bashrc
 
 ## Remove me
 ### curl https://raw.githubusercontent.com/Taraval/remote/master/README.md | sh -s uninstall
