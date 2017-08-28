@@ -8,7 +8,7 @@
     echo "alias rcmd-ls='bash ~/.remote/list.sh'" >> ~/.bashrc
     echo "alias rcmd-list='bash ~/.remote/list.sh'" >> ~/.bashrc
     echo "alias rcmd-show='bash ~/.remote/show.sh'" >> ~/.bashrc
-    echo "alias rcmd-config='_rcmd-config() { echo $1 > ~/.remote/config } ; _rcmd-config '" >> ~/.bashrc
+    echo "alias rcmd-config='_rcmd-config() { echo \$1 > ~/.remote/config } ; _rcmd-config '" >> ~/.bashrc
 
     . ~/.bashrc
 
